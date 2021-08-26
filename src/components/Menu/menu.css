@@ -1,0 +1,8 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.menu-items {
+  font-size: 16px;
+}

@@ -1,0 +1,7 @@
+.example {
+  border: 4px double black;
+  background: #fc3;
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+}
