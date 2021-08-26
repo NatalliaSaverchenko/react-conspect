@@ -1,0 +1,9 @@
+.methods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 15px 0 15px;
+}
+.methods-space {
+  margin: 10px;
+}

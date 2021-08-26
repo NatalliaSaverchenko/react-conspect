@@ -6,7 +6,7 @@ const Lifecycle = () => {
     {
       title: 'Name',
       dataIndex: 'name',
-      render: (text) => <a href="/text">{text}</a>,
+      render: (text) => <a href="/lifecycle/methods">{text}</a>,
     },
     {
       title: 'Description',

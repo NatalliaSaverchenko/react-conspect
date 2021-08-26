@@ -4,29 +4,33 @@ import Props from './pages/Props/Props'
 import State from './pages/State/State'
 import Component from './pages/Comp_class_func/Component'
 import Lifecycle from './pages/Lifecycle/Lifecycle'
+import Events from './pages/Events handling/Events'
+import Methods from './components/Methods/Methods'
+import MyMemo from './pages/MyMemo/MyMemo'
+import Key from './pages/Key/Key'
+import MyFragment from './pages/MyFragment/MyFragment'
 
 const RouterView = () => {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
 
-      <Route path="/component" component={Component} />
+      <Route exact path="/component" component={Component} />
 
-      <Route path="/props" component={Props} />
+      <Route exact path="/props" component={Props} />
 
-      <Route path="/state" component={State} />
+      <Route exact path="/state" component={State} />
 
-      <Route path="/lifecycle" component={Lifecycle} />
-      <Route path="/events" />
-      <Route path="/key" />
+      <Route exact path="/lifecycle" component={Lifecycle} />
+      <Route exact path="/lifecycle/methods" component={Methods} />
+      <Route exact path="/events" component={Events} />
+      <Route exact path="/key" component={Key} />
+      <Route exact path="/fragment" component={MyFragment} />
+      <Route exact path="/memo" component={MyMemo} />
       <Route path="/refs" />
       <Route path="/requests" />
-      <Route path="/fragment" />
-      <Route path="/memo" />
       <Route path="/hooks" />
-      <Route path="/router" />
       <Route path="/context" />
-
       <Route path="*">
         <div>404 Not Found</div>
       </Route>

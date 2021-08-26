@@ -66,11 +66,6 @@ const Menu = () => {
           </NavLink>
         </Breadcrumb.Item>
         <Breadcrumb.Item>
-          <NavLink className="menu-items" to="/router">
-            Router
-          </NavLink>
-        </Breadcrumb.Item>
-        <Breadcrumb.Item>
           <NavLink className="menu-items" to="/context">
             Context
           </NavLink>
